@@ -20,18 +20,6 @@ export const Skills = () => {
       color: "text-electric"
     },
     {
-      title: "Web Development",
-      icon: Globe,
-      skills: ["React", "HTML5", "CSS3", "Node.js", "Express", "REST APIs"],
-      color: "text-accent"
-    },
-    {
-      title: "Design & UI/UX",
-      icon: Palette,
-      skills: ["Figma", "Adobe XD", "Photoshop", "UI Design", "Prototyping"],
-      color: "text-neon"
-    },
-    {
       title: "Database & Backend",
       icon: Database,
       skills: ["MySQL", "MongoDB", "PostgreSQL", "Firebase", "SQL"],
@@ -42,12 +30,6 @@ export const Skills = () => {
       icon: Zap,
       skills: ["Git", "GitHub", "VS Code", "Linux", "Docker", "AWS"],
       color: "text-electric"
-    },
-    {
-      title: "Core CS Concepts",
-      icon: Brain,
-      skills: ["Data Structures", "Algorithms", "OOP", "System Design"],
-      color: "text-accent"
     }
   ];
 

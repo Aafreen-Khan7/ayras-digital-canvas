@@ -17,38 +17,6 @@ export const Achievements = () => {
       description: "Consistent academic performance in BTech CSE program with focus on innovation and practical learning",
       year: "2024",
       color: "text-accent"
-    },
-    {
-      icon: Star,
-      title: "Design Innovation Award",
-      organization: "College Tech Fest",
-      description: "Recognized for creative approach in UI/UX design competition at the annual technical festival",
-      year: "2024",
-      color: "text-neon"
-    },
-    {
-      icon: Medal,
-      title: "Best Project Presentation",
-      organization: "Department Competition",
-      description: "Won first place in project presentation for innovative student management system solution",
-      year: "2024",
-      color: "text-electric"
-    },
-    {
-      icon: Target,
-      title: "Coding Challenge Winner",
-      organization: "Inter-College Competition",
-      description: "Secured top position in algorithmic problem-solving competition among multiple institutions",
-      year: "2024",
-      color: "text-accent"
-    },
-    {
-      icon: Users,
-      title: "Team Leadership",
-      organization: "Student Technical Society",
-      description: "Led multiple project teams and organized technical workshops for junior students",
-      year: "2024",
-      color: "text-neon"
     }
   ];
 
@@ -107,9 +75,9 @@ export const Achievements = () => {
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
             { label: "Years of Study", value: "4+" },
-            { label: "Projects Completed", value: "15+" },
-            { label: "Technical Skills", value: "25+" },
-            { label: "Awards Won", value: "6+" }
+            { label: "Projects Completed", value: "2+" },
+            { label: "Technical Skills", value: "15+" },
+            { label: "Awards Won", value: "2+" }
           ].map((stat, index) => (
             <div key={index} className="text-center">
               <div className="text-3xl md:text-4xl font-poppins font-bold gradient-text mb-2">

@@ -13,31 +13,13 @@ export const Projects = () => {
       color: "text-electric"
     },
     {
-      title: "E-Learning Platform UI",
-      description: "Designed and prototyped a comprehensive e-learning platform interface focusing on user experience and accessibility.",
-      category: "UI/UX Design",
-      icon: Palette,
-      technologies: ["Figma", "Adobe XD", "Prototyping"],
-      status: "In Progress",
-      color: "text-neon"
-    },
-    {
-      title: "Student Management System",
-      description: "A full-stack application for managing student records, attendance, and academic performance with role-based access control.",
+      title: "E-commerce Website",
+      description: "A full-stack e-commerce platform with user authentication, product catalog, shopping cart, and payment integration for seamless online shopping experience.",
       category: "Full Stack",
       icon: Code,
-      technologies: ["Java", "Spring Boot", "MySQL", "React"],
-      status: "Completed",
+      technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
+      status: "In Progress",
       color: "text-accent"
-    },
-    {
-      title: "Mobile App Prototype",
-      description: "Interactive prototype for a mobile application focused on productivity and task management for students.",
-      category: "Mobile Design",
-      icon: Smartphone,
-      technologies: ["Figma", "Principle", "User Research"],
-      status: "Completed",
-      color: "text-tech-orange"
     }
   ];
 

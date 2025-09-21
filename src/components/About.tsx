@@ -1,4 +1,5 @@
 import { Code, Palette, Lightbulb, MessageCircle } from "lucide-react";
+import profileGirl from "@/assets/profile-girl.jpg";
 
 export const About = () => {
   const passions = [
@@ -38,13 +39,12 @@ export const About = () => {
           {/* Profile Image Placeholder */}
           <div className="relative">
             <div className="aspect-square max-w-md mx-auto rounded-3xl gradient-card p-1">
-              <div className="w-full h-full bg-muted rounded-3xl flex items-center justify-center">
-                <div className="text-center space-y-4">
-                  <div className="w-32 h-32 bg-accent/20 rounded-full mx-auto flex items-center justify-center">
-                    <Code size={64} className="text-accent" />
-                  </div>
-                  <p className="text-muted-foreground font-inter">Profile Photo</p>
-                </div>
+              <div className="w-full h-full rounded-3xl overflow-hidden">
+                <img 
+                  src={profileGirl} 
+                  alt="Ayra Raza - Computer Science Engineering Student" 
+                  className="w-full h-full object-cover rounded-3xl"
+                />
               </div>
             </div>
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-tech rounded-full opacity-20 blur-xl"></div>

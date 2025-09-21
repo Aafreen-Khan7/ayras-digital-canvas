@@ -5,7 +5,7 @@ export const Education = () => {
     {
       degree: "Bachelor of Technology in Computer Science Engineering",
       institution: "Ramdeobaba University",
-      duration: "2023 - 2027",
+      duration: "2025 - 2028",
       status: "Current (2nd Year)",
       description: "Pursuing BTech with focus on software development, algorithms, and emerging technologies.",
       highlight: "Active Student"
@@ -13,7 +13,7 @@ export const Education = () => {
     {
       degree: "Diploma in Computer Science Engineering",
       institution: "Anjuman Polytechnic",
-      duration: "2020 - 2023",
+      duration: "2022 - 2025",
       status: "Completed",
       description: "Comprehensive foundation in computer science fundamentals, programming, and system design.",
       highlight: "3rd Topper in CSE Department"

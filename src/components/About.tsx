@@ -1,5 +1,5 @@
 import { Code, Palette, Lightbulb, MessageCircle } from "lucide-react";
-import profileGirl from "@/assets/profile-girl.jpg";
+import profileGirl from "@/assets/profile-girl-hijab.jpg";
 
 export const About = () => {
   const passions = [

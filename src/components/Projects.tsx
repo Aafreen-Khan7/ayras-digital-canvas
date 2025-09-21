@@ -17,7 +17,7 @@ export const Projects = () => {
       description: "A full-stack e-commerce platform with user authentication, product catalog, shopping cart, and payment integration for seamless online shopping experience.",
       category: "Full Stack",
       icon: Code,
-      technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
+      technologies: ["Java", "Tailwind CSS", "MySQL", "Bootstrap"],
       status: "In Progress",
       color: "text-accent"
     }

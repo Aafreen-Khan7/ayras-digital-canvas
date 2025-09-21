@@ -22,13 +22,13 @@ export const Skills = () => {
     {
       title: "Database & Backend",
       icon: Database,
-      skills: ["MySQL", "MongoDB", "PostgreSQL", "Firebase", "SQL"],
+      skills: ["MySQL", "MongoDB", "Firebase", "SQL"],
       color: "text-tech-orange"
     },
     {
       title: "Tools & Technologies",
       icon: Zap,
-      skills: ["Git", "GitHub", "VS Code", "Linux", "Docker", "AWS"],
+      skills: ["Git", "GitHub", "VS Code"],
       color: "text-electric"
     }
   ];

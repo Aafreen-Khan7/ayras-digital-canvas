@@ -7,7 +7,7 @@ export const Achievements = () => {
       title: "3rd Topper in CSE Department",
       organization: "Anjuman Polytechnic",
       description: "Achieved third position in the Computer Science Engineering department during diploma studies",
-      year: "2023",
+      year: "2025",
       color: "text-tech-orange"
     },
     {
@@ -15,7 +15,7 @@ export const Achievements = () => {
       title: "Academic Excellence",
       organization: "Ramdeobaba University",
       description: "Consistent academic performance in BTech CSE program with focus on innovation and practical learning",
-      year: "2024",
+      year: "2025",
       color: "text-accent"
     }
   ];
